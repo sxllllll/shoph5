@@ -1,7 +1,0 @@
-unpackage/
-packages/lib
-temps/example_temps/
-dist/
-.hbuilderx/
-.project
-.DS_Store
