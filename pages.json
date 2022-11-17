@@ -1,0 +1,92 @@
+{
+  "pages": [{
+    "path": "pages/home/home",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/category/category",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/cart/cart",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/notice/notice",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/users/login",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/users/register",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/mine/dashboard",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/flash-deals/flash-deals",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/blog/blog",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/brands/brands",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/terms/terms",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/policy/return",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+
+  }, {
+    "path": "pages/policy/support",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+
+  }, {
+    "path": "pages/policy/privacy",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/history/purchase",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }, {
+    "path": "pages/order/track",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "%title%",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  }
+}
