@@ -1,43 +1,141 @@
 {
   "title": "商城",
-  "locale.en": "English",
-  "locale.zh-hans": "简体中文",
-  "locale.zh-hant": "繁体中文",
-  "locale.ja": "日语",
-  "currency.cny": "CNY (¥)",
-  "currency.usd": "U.S.Dollar ($)",
-  "index.commodity": "产品",
-  "index.shop": "商店",
-  "index.language-change-confirm": "语言更改确认",
-  "placeholder.buy": "我在买..",
-  "placeholder.email": "您的电子邮件地址",
-  "home.title": "首页",
-  "cart.title": "购物车",
-  "notice.title": "通知",
-  "category.title": "类别",
-  "category.all": "所有类别",
-  "mine.title": "账户",
-  "mine.account": "我的账户",
-  "mine.detail": "联系信息",
-  "login.title": "登录",
-  "login.address": "地址",
-  "login.phone": "电话",
-  "login.email": "电子邮件",
-  "login.logout": "注销",
-  "login.subscribe": "订阅",
-  "register.title": "注册",
-  "dashboard.title": "我的面板",
-  "compare.title": "比较",
-  "wishlists.title": "愿望清单",
-  "wishlists.mine": "我的愿望清单",
-  "flash-deals.title": "限时秒杀",
-  "blog.title": "博客",
-  "brands.title": "所有品牌",
-  "terms.title": "条款和条件",
-  "policy.return": "退货政策",
-  "policy.support": "支持政策",
-  "policy.privacy": "隐私政策",
-  "history.purchase": "订单历史记录",
-  "order.track": "追踪订单",
-  "": ""
+  "locale": {
+    "en": "English",
+    "zh-hans": "简体中文",
+    "zh-hant": "繁体中文",
+    "ja": "日语"
+  },
+
+  "currency": {
+    "cny": "CNY (¥)",
+    "usd": "U.S.Dollar ($)"
+  },
+  "index": {
+    "commodity": "产品",
+    "shop": "商店",
+    "language-change-confirm": "语言更改确认"
+  },
+  "placeholder": {
+    "shop": "商店名称",
+    "username": "联系人",
+    "id_front": "证件正面",
+    "id_back": "证件反面",
+    "address": "地址",
+    "buy": "我在买..",
+    "you-email": "您的电子邮件地址",
+    "firstname": "全名",
+    "email": "电子邮箱",
+    "password": "密码",
+    "password_errorLength": "密码必须至少包含{minLength}个字符",
+    "confirm-password": "确认密码",
+    "please": "请输入",
+    "true": "正确",
+    "atypism": "不一致"
+  },
+  "home": {
+    "title": "首页"
+  },
+  "cart": {
+    "title": "购物车"
+  },
+  "notice": {
+    "title": "通知"
+  },
+  "category": {
+    "title": "类别",
+    "all": "所有类别"
+  },
+  "mine": {
+    "title": "账户",
+    "account": "我的账户",
+    "detail": "联系信息"
+  },
+  "login": {
+    "title": "登录",
+    "address": "地址",
+    "firstname": "全名",
+    "phone": "电话",
+    "email": "电子邮件",
+    "logout": "注销",
+    "subscribe": "订阅",
+    "remember": "记住我",
+    "forgot": "忘记密码?",
+    "noaccount": "没有帐户?",
+    "goregister": "去注册"
+  },
+  "register": {
+    "title": "注册",
+    "account": "已经有一个账户",
+    "clause": "注册即表示您同意我们的条款和条件。"
+  },
+  "dashboard": {
+    "title": "我的面板"
+  },
+  "compare": {
+    "title": "比较"
+  },
+  "wishlists": {
+    "title": "愿望清单",
+    "mine": "我的愿望清单"
+  },
+  "flash-deals": {
+    "title": "限时秒杀"
+  },
+  "blog": {
+    "title": "博客"
+  },
+  "brands": {
+    "title": "所有品牌"
+  },
+  "policy": {
+    "return": "退货政策",
+    "support": "支持政策",
+    "privacy": "隐私政策"
+  },
+  "terms": {
+    "title": "条款和条件"
+  },
+  "history": {
+    "purchase": "订单历史记录"
+  },
+  "order": {
+    "track": "追踪订单"
+  },
+  "create": {
+    "choice": "选择文件"
+  },
+  "api": {
+    "success": "成功",
+    "fail": "失败",
+    "error": "接口错误",
+    "upload_error": "上传错误",
+    "request_error": "请求错误",
+    "200": "成功",
+    "1100000": "邮箱已经存在",
+    "1100001": "注册数据格式不正确",
+    "1100002": "账户的邮箱或者密码不正确",
+    "1100003": "账户的token已经过期,或者没有登录",
+    "1100004": "账户的编辑数据不正确",
+    "1100005": "发送邮件失败",
+    "1100006": "用户已经登录",
+    "1100007": "注册失败",
+    "1100008": "账户中该email不存在",
+    "2000001": "帐户电话发送短信失败",
+    "2000002": "帐户注册captcha失败",
+    "2000003": "客户获取优惠券失败",
+    "2000004": "客户按代码获取优惠券失败 ",
+    "2000005": "订单发货开关故障 ",
+    "2000006": "客户订单接收失败 ",
+    "2000007": "客户订单审核失败",
+    "2000008": "客户默认地址为空",
+    "2000009": "客户订单不能售后",
+    "2000010": "客户订单退货存在",
+    "2000011": "客户订单退货数量限制",
+    "2000012": "客户订单返回提交失败",
+    "2000013": "客户订单退货取消",
+    "2000014": "客户订单退回调度失败",
+    "2000015": "客户申请卖家失败",
+    "2000016": "客户重新申请卖家"
+  }
 }

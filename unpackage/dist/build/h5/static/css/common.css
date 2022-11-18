@@ -26,8 +26,8 @@
   max-width: 600rpx;
 }
 
-.max-w-450 {
-  max-width: 450px;
+.card {
+  max-width: 540px;
   width: 690rpx;
 }
 
@@ -105,6 +105,26 @@
   font-size: 12px;
 }
 
+.text-14 {
+  font-size: 14px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-24 {
+  font-size: 24px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 .bg-eef0f2 {
   background-color: #eef0f2;
 }
@@ -137,6 +157,10 @@
   color: #6c757d;
 }
 
+.color-e62e04 {
+  color: #e62e04;
+}
+
 .p-15 {
   padding: 15px 30rpx;
 }
@@ -147,6 +171,10 @@
 
 .p-24 {
   padding: 24px 48rpx;
+}
+
+.p-t-20 {
+  padding-top: 20px;
 }
 
 .p-r-10 {
@@ -206,6 +234,10 @@
   margin-left: 20rpx;
 }
 
+.m-r-4 {
+  margin-right: 8rpx;
+}
+
 .m-r-10 {
   margin-right: 20rpx;
 }
@@ -220,6 +252,10 @@
 
 .m-b-50 {
   margin-bottom: 50px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
 }
 
 .m-t-20 {

@@ -81,7 +81,15 @@
     "style": {
       "enablePullDownRefresh": false
     }
-  }],
+  }    ,{
+            "path" : "pages/shop/create",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "%title%",

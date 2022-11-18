@@ -100,7 +100,7 @@
       },
       account() {
         return [{
-            url: "/pages/user/login",
+            url: "/pages/users/login",
             title: this.$t('login.title'),
             show: !this.islogin,
           },
